@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A23B1E61BBA1AD20066E71D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A23B1E51BBA1AD20066E71D /* AppDelegate.swift */; };
+		7A23B1E81BBA1AD20066E71D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A23B1E71BBA1AD20066E71D /* ViewController.swift */; };
+		7A23B1EB1BBA1AD20066E71D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A23B1E91BBA1AD20066E71D /* Main.storyboard */; };
+		7A23B1ED1BBA1AD20066E71D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A23B1EC1BBA1AD20066E71D /* Assets.xcassets */; };
+		7A23B1F01BBA1AD20066E71D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A23B1EE1BBA1AD20066E71D /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7A23B1E21BBA1AD20066E71D /* SimpleLoginWithParse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleLoginWithParse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A23B1E51BBA1AD20066E71D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A23B1E71BBA1AD20066E71D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7A23B1EA1BBA1AD20066E71D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A23B1EC1BBA1AD20066E71D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A23B1EF1BBA1AD20066E71D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A23B1F11BBA1AD20066E71D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A23B1DF1BBA1AD20066E71D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A23B1D91BBA1AD20066E71D = {
+			isa = PBXGroup;
+			children = (
+				7A23B1E41BBA1AD20066E71D /* SimpleLoginWithParse */,
+				7A23B1E31BBA1AD20066E71D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A23B1E31BBA1AD20066E71D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A23B1E21BBA1AD20066E71D /* SimpleLoginWithParse.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A23B1E41BBA1AD20066E71D /* SimpleLoginWithParse */ = {
+			isa = PBXGroup;
+			children = (
+				7A23B1E51BBA1AD20066E71D /* AppDelegate.swift */,
+				7A23B1E71BBA1AD20066E71D /* ViewController.swift */,
+				7A23B1E91BBA1AD20066E71D /* Main.storyboard */,
+				7A23B1EC1BBA1AD20066E71D /* Assets.xcassets */,
+				7A23B1EE1BBA1AD20066E71D /* LaunchScreen.storyboard */,
+				7A23B1F11BBA1AD20066E71D /* Info.plist */,
+			);
+			path = SimpleLoginWithParse;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A23B1E11BBA1AD20066E71D /* SimpleLoginWithParse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A23B1F41BBA1AD20066E71D /* Build configuration list for PBXNativeTarget "SimpleLoginWithParse" */;
+			buildPhases = (
+				7A23B1DE1BBA1AD20066E71D /* Sources */,
+				7A23B1DF1BBA1AD20066E71D /* Frameworks */,
+				7A23B1E01BBA1AD20066E71D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleLoginWithParse;
+			productName = SimpleLoginWithParse;
+			productReference = 7A23B1E21BBA1AD20066E71D /* SimpleLoginWithParse.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A23B1DA1BBA1AD20066E71D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Diego Mello";
+				TargetAttributes = {
+					7A23B1E11BBA1AD20066E71D = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = KGAS66UAK9;
+					};
+				};
+			};
+			buildConfigurationList = 7A23B1DD1BBA1AD20066E71D /* Build configuration list for PBXProject "SimpleLoginWithParse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A23B1D91BBA1AD20066E71D;
+			productRefGroup = 7A23B1E31BBA1AD20066E71D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A23B1E11BBA1AD20066E71D /* SimpleLoginWithParse */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A23B1E01BBA1AD20066E71D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A23B1F01BBA1AD20066E71D /* LaunchScreen.storyboard in Resources */,
+				7A23B1ED1BBA1AD20066E71D /* Assets.xcassets in Resources */,
+				7A23B1EB1BBA1AD20066E71D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A23B1DE1BBA1AD20066E71D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A23B1E81BBA1AD20066E71D /* ViewController.swift in Sources */,
+				7A23B1E61BBA1AD20066E71D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7A23B1E91BBA1AD20066E71D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A23B1EA1BBA1AD20066E71D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A23B1EE1BBA1AD20066E71D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A23B1EF1BBA1AD20066E71D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A23B1F21BBA1AD20066E71D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A23B1F31BBA1AD20066E71D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A23B1F51BBA1AD20066E71D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleLoginWithParse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.diegolmello.SimpleLoginWithParse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7A23B1F61BBA1AD20066E71D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleLoginWithParse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.diegolmello.SimpleLoginWithParse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A23B1DD1BBA1AD20066E71D /* Build configuration list for PBXProject "SimpleLoginWithParse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A23B1F21BBA1AD20066E71D /* Debug */,
+				7A23B1F31BBA1AD20066E71D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A23B1F41BBA1AD20066E71D /* Build configuration list for PBXNativeTarget "SimpleLoginWithParse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A23B1F51BBA1AD20066E71D /* Debug */,
+				7A23B1F61BBA1AD20066E71D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A23B1DA1BBA1AD20066E71D /* Project object */;
+}
