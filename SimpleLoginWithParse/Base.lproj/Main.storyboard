@@ -56,7 +56,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="Guc-Sy-5C5" firstAttribute="centerX" secondItem="xZc-YT-t7e" secondAttribute="centerX" id="1Hb-BE-qID"/>
                             <constraint firstItem="Guc-Sy-5C5" firstAttribute="top" secondItem="y61-HE-1tH" secondAttribute="bottom" constant="8" symbolic="YES" id="C8s-yA-RYq"/>
@@ -120,7 +120,7 @@
                                 <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES" secureTextEntry="YES"/>
                             </textField>
                         </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="0yE-5A-u2D" firstAttribute="leading" secondItem="8Z8-TZ-ztc" secondAttribute="leading" id="C05-8I-UF4"/>
                             <constraint firstItem="YY5-Hp-Mt6" firstAttribute="trailing" secondItem="8Z8-TZ-ztc" secondAttribute="trailing" id="GLl-zy-zzJ"/>
@@ -167,11 +167,11 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NzL-5O-qJy">
                                 <rect key="frame" x="257" y="289" width="86" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="NzL-5O-qJy" firstAttribute="centerX" secondItem="hVc-q8-xJC" secondAttribute="centerX" id="e9S-fv-rGm"/>
                             <constraint firstItem="NzL-5O-qJy" firstAttribute="centerY" secondItem="hVc-q8-xJC" secondAttribute="centerY" id="yRg-nd-dxF"/>
@@ -239,7 +239,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="Cwy-JC-wwd" firstAttribute="top" secondItem="PyW-9b-fy2" secondAttribute="bottom" constant="8" id="5nG-HA-yft"/>
                             <constraint firstItem="PyW-9b-fy2" firstAttribute="top" secondItem="I4R-sT-JRM" secondAttribute="bottom" constant="146" id="DIW-Zi-bNm"/>
